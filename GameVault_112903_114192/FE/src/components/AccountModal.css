@@ -1,0 +1,112 @@
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    max-width: 400px;
+    position: relative;
+    align-items: center;
+  }
+  
+  .close {
+    color: #aaa;
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  input{
+    width: 100%;
+    padding: 8px;
+    border: 2px solid red;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  input:hover{
+    background-color: #ccc;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modal-content form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-content form label,
+  .modal-content form input,
+  .modal-content form textarea,
+  .modal-content form button {
+    margin-bottom: 10px;
+    align-self: center; 
+  }
+  
+  .modal-content form button {
+    align-self: center; 
+  }
+  .red-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .red-button:hover {
+    background-color: #f55;
+  }
+
+  .signup {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .signup p {
+    margin-bottom: 5px;
+  }
+
+  .modal-content h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+.separator {
+  border: 1px solid #000;
+  height: 2px;
+  margin: 1rem 0;
+}
+
+label[for="staySignedIn"] {
+    white-space: nowrap;
+}
+
+.stay-signed-in-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 160px
+}

@@ -1,0 +1,219 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  position: relative;
+  width: 500px;
+  max-width: 90%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  text-align: left;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #f00;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.close:hover {
+  background: #f55;
+  color: #fff;
+}
+
+.filter-buttons {
+  align-items: center;
+}
+
+.apply-button {
+  margin-left: 15px;
+  margin-right: 10px;
+  width: 150px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.apply-button:hover {
+  background-color: #f55;
+}
+
+.clearfilter-button {
+  width: 150px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.clearfilter-button:hover {
+  background-color: #f55;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.genre-selection {
+  width: 88%;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 2px solid red;
+  border-radius: 8px;
+}
+
+.genre-selection option {
+  padding: 10px;
+}
+
+.genre-selection:hover {
+  background-color: #ccc;
+}
+
+.developer-selection {
+  width: 81%;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 2px solid red;
+  border-radius: 8px;
+}
+
+.developer-selection option {
+  padding: 10px;
+}
+
+.developer-selection:hover {
+  background-color: #ccc;
+}
+
+.platform-selection {
+  width: 84%;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 2px solid red;
+  border-radius: 8px;
+}
+
+.platform-selection option {
+  padding: 10px;
+}
+
+.platform-selection:hover {
+  background-color: #ccc;
+}
+
+.toggle-button {
+  background-color: transparent;
+  color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 1px 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.toggle-button:hover {
+  background-color: red;
+  color: #fff;
+}
+
+.rating-input {
+  flex: 0.95;
+  height: 35px;
+  margin-top: 7px;
+}
+
+.rating-input:hover {
+  background-color: #ccc;
+}
+
+.confirm-buttons {
+  width: 100px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.confirm-buttons:hover {
+  background-color: #f55;
+}
+
+.confirmation-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: -15px;
+  bottom: 0;
+}
+
+.confirmation-modal-content {
+  background-color: #fff;
+  padding: 25px;
+  margin-right:15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.confirmation-modal h2 {
+  margin-top: 0;
+}
+
+.confirmation-modal p {
+  margin-bottom: 5px;
+}
+
+.confirmation-modal pre {
+  white-space: pre-wrap;
+  font-family: Arial sans-serif;
+}
+
+.publisher-selection {
+  width: 83%;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 2px solid red;
+  border-radius: 8px;
+}

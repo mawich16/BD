@@ -1,0 +1,78 @@
+.page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 5px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.company-details-container {
+    width: 100%;
+    text-align: center;
+}
+
+.company-details-container h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 0.5em;
+}
+
+.company-details-container p {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.games-section {
+    margin-top: 2em;
+}
+
+.games-section h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1em;
+}
+
+.games-section h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+.games-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.games-section li {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.games-section li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+    background-color: #f1f1f1;
+}
+
+.loading {
+    font-size: 1.5em;
+    color: #999;
+    text-align: center;
+    margin-top: 20px;
+}
